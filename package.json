@@ -1,0 +1,19 @@
+{
+  "name": "ReactJS-Component-Inheritance-Demo",
+  "version": "1.0.0",
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "reactjs/react-bower": "github:reactjs/react-bower@^0.13.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 3000",
+    "preinstall": "npm i -g jspm eslint eslint-plugin-react"
+  }
+}
